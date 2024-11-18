@@ -1,0 +1,4 @@
+/node_modules
+# ignore bun.lockb file
+.lockb
+dist

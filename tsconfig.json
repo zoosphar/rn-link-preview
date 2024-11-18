@@ -4,6 +4,7 @@
     "module": "commonjs",
     "declaration": true,
     "outDir": "./dist",
+    "rootDir": "./",
     "strict": true,
     "jsx": "react-native",
     "moduleResolution": "node",
@@ -11,6 +12,6 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"],
+  "include": ["src/**/*", "index.ts"],
   "exclude": ["node_modules", "dist", "**/__tests__/*"]
 }
